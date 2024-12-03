@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jan Garage</title>
+
+    <!-- fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link  href="https://fonts.googleapis.com/css2?family=poppins:wght@100;300;400;700&display=swap" rel="stylesheet">
+
+     <!-- feather icons -->
+      <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- my style -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <!-- NAVBAR START -->
+     <nav class="navbar">
+        <a href="#" class="navbar-logo">Jan<span>Garage.</span></a>
+        
+        <div class="navbar-nav">
+           <a href="#home">Home</a>
+           <a href="#about">Tentang Kami</a>
+           <a href="#layanan">Layanan Kami</a>
+           <a href="#contact">Kontak</a>
+           <a href="#develop">Developer</a>
+        </div>
+        <div class="navbar-extra">
+         <a href="#login" id="search" class="login"><i data-feather="log-in"></i></a>
+         <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+        </div>
+     </nav>
+    <!-- NAVBAR END -->
+
+   <!-- slider start -->
+   <section class="slider" id="home">
+      <div class="slide active" style="background-image: url(img/foto.jpg);">
+        <h1>Service Motor Terpercaya dan <span>Cepat</span></h1>
+        <p class="p">Mekanik Rumahan</p>
+        <a href="#login" class="cta">Booking Sekarang</a>
+      </div>
+      <div class="slide" style="background-image: url(img/back2.jpg);">
+        <h1>Perawatan Rutin Motor <span> Anda </span></h1>
+        <p class="p">Kami menyediakan layanan perawatan berkala untuk motor Anda.</p>
+        <a href="#login" class="cta">Booking Sekarang</a>
+      </div>
+      <div class="slide" style="background-image: url(img/back3.jpg);">
+        <h1>Servis Darurat <span> 24 Jam </span></h1>
+        <p class="p">Kami siap membantu Anda kapan saja dan di mana saja.</p>
+        <a href="#login" class="cta">Booking Sekarang</a>
+      </div>
+    </section>
+   <!-- slider end -->
+
+    <!-- Login start -->
+    <div class="login-page" id="login">
+      <div class="form">
+         <h2>Login</h2>
+        <form class="register-form">
+          <input type="text" placeholder="name"/>
+          <input type="password" placeholder="password"/>
+          <input type="text" placeholder="email address"/>
+          <button>create</button>
+          <p class="message">Already registered? <a href="#">Sign In</a></p>
+        </form>
+        <form class="login-form">
+          <input type="text" placeholder="username"/>
+          <input type="password" placeholder="password"/>
+          <button><a href="#forum">login</a></button>
+          <p class="message">Not registered? <a href="#">Create an account</a></p>
+        </form>
+      </div>
+    </div>
+    <!-- Login end -->
+     
+    <!-- About Section start -->
+     <section id="about" class="about">
+        <h2><span>Tentang</span> Kami</h2>
+
+        <div class="row">
+            <div class="about-img">
+                <img src="img/motor.jpg" alt="Tentang Kami">
+            </div>
+            <div class="content">
+                <h3>Kenapa Harus ke Bengkel kami?</h3>
+                <p>Karena kami mempunyai alat yang lengkap dengan kinerja mekanik kami yang sudah profesional dan berpengalaman di BLK sebagai seorang mekanik motor, serta fasilitas dibengkel kami bisa membuat anda nyaman menunggu dan gratis konsumsi (kopi). dengan mekanik kami yang profesional anda tidak perlu menunggu waktu yang lama.</p>
+            </div>
+        </div>
+     </section>
+    <!-- About Section end -->
+
+    <!-- Menu Section start -->
+     <section id="layanan" class="layanan">
+       <h2><span>Layanan</span> Kami</h2>
+       <p>Kami memiliki beberapa layanan, seperti dibawah berikut ini:</p>
+       <div class="row">
+         <div class="layanan-card">
+            <img src="img/oli.jpg" alt="ganti_oli" class="layanan-card-img">
+            <h3 class="layanan-card-title">-Ganti Oli-</h3>
+            <p class="layanan-card-price">IDR 55K</p>
+         </div>
+         <div class="layanan-card">
+            <img src="img/aki.jpg" alt="ganti_oli" class="layanan-card-img">
+            <h3 class="layanan-card-title">-Service Aki-</h3>
+            <p class="layanan-card-price">IDR 30K-50k</p>
+         </div>
+         <div class="layanan-card">
+            <img src="img/kaki.jpg" alt="ganti_oli" class="layanan-card-img">
+            <h3 class="layanan-card-title">-Kaki Kaki-</h3>
+            <p class="layanan-card-price">IDR 25K-250k</p>
+         </div>
+         <div class="layanan-card">
+            <img src="img/karbu.jpg" alt="ganti_oli" class="layanan-card-img">
+            <h3 class="layanan-card-title">-Service Karbu-</h3>
+            <p class="layanan-card-price">IDR 50K+Karbu Cleaner</p>
+         </div>
+         <div class="layanan-card">
+            <img src="img/kelistrikan.jpg" alt="ganti_oli" class="layanan-card-img">
+            <h3 class="layanan-card-title">-Kelistrikan-</h3>
+            <p class="layanan-card-price">IDR 20K-150k</p>
+         </div>
+         <div class="layanan-card">
+            <img src="img/mesin.jpg" alt="ganti_oli" class="layanan-card-img">
+            <h3 class="layanan-card-title">-Tune Up-</h3>
+            <p class="layanan-card-price">IDR 200K-1000k</p>
+         </div>
+       </div>
+     </section>
+    <!-- Menu Section end -->
+
+    <!-- Formulir pemesanan start -->
+     <section id="forum" class="forum">
+      <div class="form-container">
+        <h2>Booking Service Motor</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Nama Lengkap</label>
+                <input type="text" id="name" name="name" placeholder="Masukkan nama lengkap Anda" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Nomor Telepon</label>
+                <input type="tel" id="phone" name="phone" placeholder="Masukkan nomor telepon Anda" required>
+            </div>
+            <div class="form-group">
+                <label for="motor">Jenis Motor</label>
+                <select id="motor" name="motor" required>
+                    <option value="">Pilih jenis motor</option>
+                    <option value="Matic">Matic</option>
+                    <option value="Bebek">Bebek</option>
+                    <option value="Sport">Sport</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="date">Tanggal Service</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Keluhan</label>
+                <textarea id="message" name="message" placeholder="Tulis keluhan Anda"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Kirim</button>
+            </div>
+        </form>
+      </div>
+     </section>
+    <!-- Formulir pemesanan end -->
+
+    <!-- Contact Section start -->
+     <section id="contact" class="contact">
+       <h2><span>Kontak</span> Kami</h2>
+        <p>Anda bisa Kontak kami melalui dibawah berikut:</p>
+
+        <div class="row">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.429710101819!2d106.81382879999998!3d-6.467122700000009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c20113679a3f%3A0x599c3254f8f77ec1!2sJl.%20Anggrek%20No.B3%2026%2C%20Rawa%20Panjang%2C%20Bojonggede%2C%20Bogor%20Regency%2C%20West%20Java%2016920!5e0!3m2!1sen!2sid!4v1731589078768!5m2!1sen!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+          
+          <form action="">
+            <div class="input-group">
+               <i data-feather="mail"></i>
+               <input type="text" placeholder="email">
+            </div>
+            <div class="input-group">
+               <i data-feather="user"></i>
+               <input type="text" placeholder="nama">
+            </div>
+            <div class="input-group">
+               <i data-feather="phone"></i>
+               <input type="text" placeholder="nomer telephone">
+            </div>
+            <button type="submit" class="btn">Kirim pesan</button>
+          </form>
+         </div>
+     </section>
+    <!-- Contact Section end -->
+
+    <!-- Develover start -->
+    <section id="develop" class="develop">
+      <h2><span>Developer</span> Pengembang</h2>
+
+      <div class="row">
+          <div class="develop-img">
+              <img src="img/Razan.jpg" alt="Developer" class="p1">
+          </div>
+          <div class="content">
+              <h3>Developer</h3>
+              <p>Perkenalkan Nama saya Razan Muhammad Ihsan Rismawandi <br> Saya sebagai developer web ini dan saya sekarang menjadi mahasiswa Teknik Informatika di STT Terpadu Nurul Fikri</p>
+          </div>
+      </div>
+   </section>
+     <!-- Developer end -->
+
+    <!-- Footer start -->
+     <footer>
+       <div class="socials">
+         <a href="https://www.instagram.com/ihsan.r_02/profilecard/?igsh=MXN3M2R4ZjI2MHE1dA="><i data-feather="instagram"></i></a>
+         <a href="https://github.com/ZanIhsan2"><i data-feather="github"></i></a>
+         <a href="https://wa.me/6282116627234"><i data-feather="phone"></i></a>
+         <a href="https://www.linkedin.com/in/zan-ihsan-92b44033b/"><i data-feather="linkedin"></i></a>
+       </div>
+
+       <div class="links">
+         <a href="#home">Home</a>
+         <a href="#about">Tentang Kami</a>
+         <a href="#layanan">Layanan Kami</a>
+         <a href="#contact">Kontak</a>
+         <a href="#develop">Developer</a>
+       </div>
+
+       <div class="credit">
+         <p>Copyright by <a href="">jangarage</a>. | &copy; 2024.</p>
+       </div>
+     </footer>
+    <!-- Footer end -->
+
+    <!-- feather icons -->
+     <script>
+        feather.replace()
+     </script>
+
+     <!-- My Javascript -->
+      <script src="script.js"></script>
+  </body>
+</html>
